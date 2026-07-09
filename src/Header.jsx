@@ -1,12 +1,14 @@
+import { LOGO_URL } from "./utils/constants";
+
 const Header=()=>{
     return (
         <>
-        <section class="flex justify-between items-center shadow-lg">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3944WcH3EFiu9ezAR34l7gHdMqMqQOXi8OLmbRhFVwA&s=10" class="w-[50px] lg:w-[100px]"></img>
+        <section className="flex justify-between items-center shadow-lg">
+            <img src={LOGO_URL} className="w-[50px] lg:w-[100px]"></img>
             <div>
-                <ul class="flex text-md mr-10 md:mr-20 md:text-lg ">
-                    <li class="mr-10 md:mr-20">About</li>
-                    <li class="mr-10 md:mr-20">Contact Us</li>
+                <ul className="flex text-md mr-10 md:mr-20 md:text-lg ">
+                    <li className="mr-10 md:mr-20">About</li>
+                    <li className="mr-10 md:mr-20">Contact Us</li>
                     <li>Search</li>
                 </ul>
             </div>

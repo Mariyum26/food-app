@@ -1,0 +1,1 @@
+export const LOGO_URL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3944WcH3EFiu9ezAR34l7gHdMqMqQOXi8OLmbRhFVwA&s=10";
