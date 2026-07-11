@@ -23,9 +23,10 @@ const Body=()=>{
             </div>
             <div>
                 <h2>All Restaurant cards</h2>
-                <div className='border-b-[#02060c] border-l-[#02060c] border-r-[#02060c] border-t-[#02060c] box-border text-[#02060c] cursor-pointer text-sm font-extralight h-[160.297px] leading-[16.8px] w-[240.469px]'>
+                <div className=''>
+                    {/* border-b-[#02060c] border-l-[#02060c] border-r-[#02060c] border-t-[#02060c] box-border text-[#02060c] cursor-pointer text-sm font-extralight h-[160.297px] leading-[16.8px] w-[240.469px] */}
                     <div>
-                        <div className='border-b-[#02060c] border-l-[#02060c] border-r-[#02060c] border-t-[#02060c] box-border text-[#02060c] gap-x-8 cursor-pointer grid text-sm font-extralight grid-cols-[240.469px_240.469px_240.469px_240.469px] h-auto leading-[16.8px] mb-10 mt-10 gap-y-8 w-[1057.88px]'>
+                        <div className='box-border text-[#02060c] md:gap-x-8 cursor-pointer grid text-sm font-extralight grid-cols-[230.469px_230.469px] md:grid-cols-[240.469px_240.469px_240.469px_240.469px] h-auto mb-10 mt-10 gap-4 md:gap-y-8 w-full md:w-[1057.88px] pl-[2px] md:pl-0'>
                    {restaurantList.map((restaurant)=> <RestuarantCard key={restaurant.info.id} data={restaurant}/>)} 
                    </div>
                    </div>
