@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <section>
+      <section className="m-0 p-0 font-gilroy box-border">
         <Header/>
         <Body/>
       </section>
