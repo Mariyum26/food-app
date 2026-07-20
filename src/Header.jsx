@@ -1,4 +1,5 @@
 import { LOGO_URL } from "./utils/constants";
+import { Link } from "react-router-dom";
 
 const Header=()=>{
     return (
@@ -7,7 +8,7 @@ const Header=()=>{
             <img src={LOGO_URL} className="w-[50px] lg:w-[100px]"></img>
             <div>
                 <ul className="flex text-md mr-10 md:mr-20 md:text-lg ">
-                    <li className="mr-10 md:mr-20">About</li>
+                    <Link to="about"className="focus:outline-none"><li className="mr-10 md:mr-20">About</li></Link>
                     <li className="mr-10 md:mr-20">Contact Us</li>
                     <li>Search</li>
                 </ul>

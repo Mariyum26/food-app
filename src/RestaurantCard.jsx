@@ -1,5 +1,5 @@
 const RestuarantCard=({data})=>{
-    const {name,avgRating,cuisines,cloudinaryImageId,areaName,costForTwo}=data.info;
+    const {name,avgRating,cuisines,cloudinaryImageId,areaName,costForTwo}=data;
     return (
         <div className="border-box text-[#02060c] cursor-pointer grid text-sm font-extralight grid-cols-[230.469px] md:grid-cols-[240.469px] h-[264.297px] md:w-[240.469px] w-full">
             <div className="text-[#02060c] text-sm font-extralight h-[160.297px] shadow-xl">
